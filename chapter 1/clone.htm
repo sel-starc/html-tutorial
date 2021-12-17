@@ -1,0 +1,1401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>
+        Competitive Programming | Participate & Learn | CodeChef </title>
+    <!-- Errorception -->
+    <script>
+        (function(_, e, rr, s) {
+            _errs = [s];
+            var c = _.onerror;
+            _.onerror = function() {
+                var a = arguments;
+                _errs.push(a);
+                c && c.apply(this, a)
+            };
+            var b = function() {
+                var c = e.createElement(rr),
+                    b = e.getElementsByTagName(rr)[0];
+                c.src = "//beacon.errorception.com/" + s + ".js";
+                c.async = !0;
+                b.parentNode.insertBefore(c, b)
+            };
+            _.addEventListener ? _.addEventListener("load", b, !1) : _.attachEvent("onload", b)
+        })
+        (window, document, "script", "4e7c8fce06a9ab05530008e5");
+    </script>
+    <!--End Errorception -->
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TV5X2M');
+    </script>
+    <!-- End Google Tag Manager -->
+    <!-- Facebook Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '2444182835820350');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+             <img height="1" width="1" 
+            src="https://www.facebook.com/tr?id=2444182835820350&ev=PageView
+            &noscript=1"/>
+            </noscript>
+    <!-- End Facebook Pixel Code -->
+    <script src="https://www.googleoptimize.com/optimize.js?id=OPT-WFQ23G3"></script>
+    <meta property="og:url" content="https://www.codechef.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="CodeChef | Competitive Programming | Participate & Learn | CodeChef" />
+    <meta property="og:image" content="https://cdn.codechef.com/sites/all/themes/abessive/cc-logo.png" />
+    <meta property="og:description" content="CodeChef | Competitive Programming | Participate & Learn | CodeChef" />
+    <meta property="fb:app_id" content="191217060453" />
+    <meta name='robots' content='index, follow' />
+    <meta name='description' content='Learn competitive programming with the help of CodeChef&apos;s coding competitions. Take part in these online coding contests to level up your skills' />
+    <link rel='canonical' href='https://www.codechef.com'>
+    <script>
+        window.csrfToken = '261f3924dfe13fbaa400f2a152c16fde01ee271b50997bfac5c11a48896af6f9';
+    </script>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' href='/sites/all/themes/mallow/css/mallow.css?v=67905ecf451e732a2d77f622219294f0'>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+    <script src='/sites/all/themes/mallow/js/mallow.min.js?v=ea99b5c1bf037e174fc0f677e87d5943'></script>
+    <script src='/em/libs/common/common.js?v=45c9d201752b42378ef8588b889bd333'></script>
+    <script src='/misc/drupal.js'></script>
+    <script src='/em/libs/cryptojs/aes.js'></script>
+    <script src='/sites/all/themes/mallow/js/todo.min.js?v=3c7dcdaea2f8fb977e77802f9ef8595f'></script>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Open+Sans:wght@300;400;600;700;800&family=Roboto+Mono:wght@100;300;400;500;700&family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.codechef.com/css/tiny-slider-2.9.3.css">
+    <script src="https://cdn.codechef.com/js/tiny-slider-2.9.3.js"></script>
+    <script src='/sites/all/themes/mallow/js/mallow.slider.js?v=90c1b846dabb32c295ac44633f0d37f2'></script>
+    <meta charset="utf-8">
+    <meta name="facebook-domain-verification" content="ruyz520i5y7n43r6lgij5pt158siz6" />
+    <meta name="google-site-verification" content="u_r-UtobgmZQQ9jZd9_KqvQl-qc42N6HE0TOBxeWghg" />
+    <script src='/sites/all/modules/codechef_common_functions/js/codechefGenericModal.js'></script>
+    <script src='/sites/all/modules/codechef_common_functions/codechef_common_functions.js?v=
+    65a07921c9f8a4dd4f323bc86a2ef916'></script>
+    <script type="text/javascript">
+        <!--//--><![CDATA[//><!--
+        jQuery.extend(Drupal.settings, {
+            "visitedContests": [],
+            "username": null,
+            "user_consented_privacy_policy_version": null,
+            "user_consented_privacy_policy_on": null,
+            "current_privacy_policy_version": "9719286"
+        });
+        //--><!]]>
+    </script>
+    <script src='/sites/all/modules/codechef_alerts/codechef_alerts.js?v=
+    69b8671a75aaef9e534f555c5fd64452'></script>
+    <link rel='stylesheet' type='text/css' href='/misc/jquery-popup-overlay/popupoverlay.css'>
+    <link rel='stylesheet' type='text/css' href='/sites/all/themes/abessive/css/modal.css'>
+    <link rel="dns-prefetch" href="//codechef_shared.s3.amazonaws.com" />
+    <link rel="dns-prefetch" href="//beacon.errorception.com" />
+    <link rel="dns-prefetch" href="//static.ak.facebook.com" />
+    <link rel="dns-prefetch" href="//fbcdn-profile-a.akamaihd.net" />
+    <link rel="dns-prefetch" href="//discuss.codechef.com" />
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "CodeChef",
+            "url": "https://www.codechef.com/",
+            "logo": "https://cdn.codechef.com/sites/all/themes/abessive/cc-logo-sd.svg",
+            "sameAs": [
+                "https://www.facebook.com/CodeChef/",
+                "https://twitter.com/codechef",
+                "https://www.youtube.com/channel/UCh-5M0r0SBgb5xNCFXG7aXQ",
+                "https://www.linkedin.com/company/codechef/"
+            ]
+        }
+    </script>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TV5X2M"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <header class="m-header-one">
+        <div class="l-header">
+            <div class="l-header__logo">
+                <div class="l-header__image-2">
+                    <a href="https://www.codechef.com">
+                        <img class="m-header__image m-header__image--pc" src="https://cdn.codechef.com/images/cc-logo-sd.svg" alt="CodeChef Logo">
+                        <img class="m-header__image m-header__image--mobile" src="https://cdn.codechef.com/images/cc-logo-mobile-1.svg" alt="CodeChef Logo">
+                    </a>
+                </div>
+            </div>
+            <div class="l-header__user-block">
+                <div><button class="m-login-button" onclick="window.open('https://www.codechef.com/login?destination=/', '_self')">New User / Login</button></div>
+            </div>
+        </div>
+    </header>
+    <nav class='l-navigation is-desktop-navigation' id='m-codechef-nav'>
+        <div class='m-navigation'>
+            <div class='m-navigation-text__container'><a class='m-main-nav' href='/'>Home</a></div>
+            <div class='m-navigation-item__container'>
+                <div class='m-navigation-text__container'><span class='m-main-nav'>Practice & Learn</span><i class='i-navigation-dropdown i-main-nav__dropdown-down'></i></div>
+                <div class='m-navigation-dropdown__container is-nav-dropdown-closed'><span class='m-navigation-item__heading'><i class='i-main-nav__section-heading'></i>IDE</span><a href='/ide?itm_medium=navmenu&itm_campaign=ide' class='m-navigation-dropdown__item'><span class=''>Code, Compile and Learn</span><i class='i-main-nav__right-arrow-black'></i></a>
+                    <hr
+                        class='l-navigation-divider'><span class='m-navigation-item__heading'><i class='i-main-nav__section-heading'></i>PRACTICE</span><a href='/problems/school?itm_medium=navmenu&itm_campaign=problems' class='m-navigation-dropdown__item'><span class=''>Problems (by Difficulty Level)</span><i class='i-main-nav__right-arrow-black'></i></a>
+                        <a
+                            href='/tags/problems?itm_medium=navmenu&itm_campaign=tagsproblems' class='m-navigation-dropdown__item'><span class=''>Problems (by Tags)</span><i class='i-main-nav__right-arrow-black'></i></a><a href='/LEARNDSA?itm_medium=navmenu&itm_campaign=learndsa' class='m-navigation-dropdown__item'><span class=''>DSA Learning Series</span><i class='i-main-nav__right-arrow-black'></i></a></div>
+            </div>
+            <div class='m-navigation-item__container'>
+                <div class='m-navigation-text__container'><span class='m-main-nav'>Compete</span><i class='i-navigation-dropdown i-main-nav__dropdown-down'></i></div>
+                <div class='m-navigation-dropdown__container is-nav-dropdown-closed'><span class='m-navigation-item__heading'><i class='i-main-nav__section-heading'></i>UPCOMING CHALLENGES</span><a href='/START20?itm_campaign=navmenu' class='m-navigation-dropdown__item'><span class=''>CodeChef Starters 20 (Rated for Div 3)</span><i class='i-main-nav__right-arrow-black'></i></a>
+                    <a
+                        href='/COOK136?itm_medium=navmenu&itm_campaign=COOK136' class='m-navigation-dropdown__item'><span class=''>December Cook-Off 2021</span><i class='i-main-nav__right-arrow-black'></i></a>
+                        <hr class='l-navigation-divider'><span class='m-navigation-item__heading'><i class='i-main-nav__section-heading'></i>CONTESTS ON CODECHEF</span><a href='/contests?itm_medium=navmenu&itm_campaign=allcontests' class='m-navigation-dropdown__item'><span class=''>All Contests</span><i class='i-main-nav__right-arrow-black'></i></a>
+                        <hr
+                            class='l-navigation-divider'><span class='m-navigation-item__heading'><i class='i-main-nav__section-heading'></i>CONTEST RELATED</span><a href='/event-calendar?itm_medium=navmenu&itm_campaign=calendar' class='m-navigation-dropdown__item'><span class=''>Contest Calendar</span><i class='i-main-nav__right-arrow-black'></i></a></div>
+            </div>
+            <div class='m-navigation-item__container'>
+                <div class='m-navigation-text__container'><span class='m-main-nav'>Discuss</span><i class='i-navigation-dropdown i-main-nav__dropdown-down'></i></div>
+                <div class='m-navigation-dropdown__container is-nav-dropdown-closed'><a href='https://discuss.codechef.com?itm_medium=navmenu&itm_campaign=discuss' target='_blank' class='m-navigation-dropdown__item'><span class=''>Discussion Forum</span><i class='i-main-nav__right-arrow-black'></i></a><a href='https://blog.codechef.com?itm_medium=navmenu&itm_campaign=blog'
+                        target='_blank' class='m-navigation-dropdown__item'><span class=''>Blog</span><i class='i-main-nav__right-arrow-black'></i></a></div>
+                <hr class='l-navigation-divider--vertical'>
+            </div>
+            <div class='m-navigation-item__container'>
+                <div class='m-navigation-text__container'><span class='m-main-nav'>Our Initiatives</span><i class='i-navigation-dropdown i-main-nav__dropdown-down'></i></div>
+                <div class='m-navigation-dropdown__container is-nav-dropdown-closed'><a href='/monthly-programming-contests?itm_medium=navmenu&itm_campaign=monthlycontests' class='m-navigation-dropdown__item'><span class=''>Monthly Contests</span><i class='i-main-nav__right-arrow-black'></i></a><a href='/hostyourcontest?itm_medium=navmenu&itm_campaign=hyc'
+                        class='m-navigation-dropdown__item'><span class=''>Host your Contest</span><i class='i-main-nav__right-arrow-black'></i></a><a href='/snackdown?itm_medium=navmenu&itm_campaign=snackdown' class='m-navigation-dropdown__item'><span class=''>SnackDown</span><i class='i-main-nav__right-arrow-black'></i></a>
+                    <a
+                        href='/goforgold?itm_medium=navmenu&itm_campaign=goforgold' class='m-navigation-dropdown__item'><span class=''>Go for Gold</span><i class='i-main-nav__right-arrow-black'></i></a>
+                </div>
+            </div>
+            <div class='m-navigation-item__container'>
+                <div class='m-navigation-text__container'><span class='m-main-nav'>Associate with Us</span><i class='i-navigation-dropdown i-main-nav__dropdown-down'></i></div>
+                <div class='m-navigation-dropdown__container is-nav-dropdown-closed'><a href='https://business.codechef.com?itm_medium=navmenu&itm_campaign=business' class='m-navigation-dropdown__item'><span class=''>Business Partnerships</span><i class='i-main-nav__right-arrow-black'></i></a><a href='/problemsetting?itm_medium=navmenu&itm_campaign=problemsetting'
+                        class='m-navigation-dropdown__item'><span class=''>Become a Problem Setter</span><i class='i-main-nav__right-arrow-black'></i></a>
+                    <a href='/contactus?itm_medium=navmenu&itm_campaign=contactus' class='m-navigation-dropdown__item'><span class=''>Contact Us</span><i class='i-main-nav__right-arrow-black'></i></a>
+                </div>
+            </div>
+            <div class='m-navigation-item__container'>
+                <div class='m-navigation-text__container'><span class='m-main-nav'>More from CodeChef</span><i class='i-navigation-dropdown i-main-nav__dropdown-down'></i></div>
+                <div class='m-navigation-dropdown__container is-nav-dropdown-closed'><a href='/getting-started?itm_medium=navmenu&itm_campaign=getstarted' class='m-navigation-dropdown__item'><span class=''>Get Started at CodeChef</span><i class='i-main-nav__right-arrow-black'></i></a><a href='/ratings/all?itm_medium=navmenu&itm_campaign=ratings'
+                        class='m-navigation-dropdown__item'><span class=''>CodeChef Ratings</span><i class='i-main-nav__right-arrow-black'></i></a>
+                    <a href='https://goodies.codechef.com?itm_medium=navmenu&itm_campaign=goodies' target='_blank' class='m-navigation-dropdown__item'><span class=''>CodeChef Goodies</span><i class='i-main-nav__right-arrow-black'></i></a><a href='/icpc?itm_medium=navmenu&itm_campaign=icpc' class='m-navigation-dropdown__item'><span class=''>ICPC</span><i class='i-main-nav__right-arrow-black'></i></a>
+                    <a
+                        href='/ioi?itm_medium=navmenu&itm_campaign=ioi' class='m-navigation-dropdown__item'><span class=''>IOI</span><i class='i-main-nav__right-arrow-black'></i></a><a href='/wiki/faq?itm_medium=navmenu&itm_campaign=faq' class='m-navigation-dropdown__item'><span class=''>Frequently Asked Questions</span><i class='i-main-nav__right-arrow-black'></i></a>
+                        <a
+                            href='/wiki?itm_medium=navmenu&itm_campaign=wiki' class='m-navigation-dropdown__item'><span class=''>CodeChef Wiki</span><i class='i-main-nav__right-arrow-black'></i></a><a href='/ratings/divisions?itm_medium=navmenu&itm_campaign=divisions' class='m-navigation-dropdown__item'><span class=''>Contest Divisions</span><i class='i-main-nav__right-arrow-black'></i></a>
+                            <a
+                                href='/aboutus?itm_medium=navmenu&itm_campaign=aboutus' class='m-navigation-dropdown__item'><span class=''>About Us</span><i class='i-main-nav__right-arrow-black'></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <nav class='l-navigation is-tablet-navigation'>
+        <div class='m-navigation'>
+            <div class='m-navigation-text__container'><a class='m-main-nav' href='/'><span class='m-navigation-text--desktop'>Home</span><span class='m-navigation-text--tablet'><i class='i-main-nav__home-icon'></i></span></a></div>
+            <div class='m-navigation-item__container'>
+                <div class='m-navigation-text__container'><span class='m-main-nav'>Practice & Learn</span><i class='i-navigation-dropdown i-main-nav__dropdown-down'></i></div>
+                <div class='m-navigation-dropdown__container is-nav-dropdown-closed'><span class='m-navigation-item__heading'><i class='i-main-nav__section-heading'></i>IDE</span><a href='/ide?itm_medium=navmenu&itm_campaign=ide' class='m-navigation-dropdown__item'><span class=''>Code, Compile and Learn</span><i class='i-main-nav__right-arrow-black'></i></a>
+                    <hr
+                        class='l-navigation-divider'><span class='m-navigation-item__heading'><i class='i-main-nav__section-heading'></i>PRACTICE</span><a href='/problems/school?itm_medium=navmenu&itm_campaign=problems' class='m-navigation-dropdown__item'><span class=''>Problems (by Difficulty Level)</span><i class='i-main-nav__right-arrow-black'></i></a>
+                        <a
+                            href='/tags/problems?itm_medium=navmenu&itm_campaign=tagsproblems' class='m-navigation-dropdown__item'><span class=''>Problems (by Tags)</span><i class='i-main-nav__right-arrow-black'></i></a><a href='/LEARNDSA?itm_medium=navmenu&itm_campaign=learndsa' class='m-navigation-dropdown__item'><span class=''>DSA Learning Series</span><i class='i-main-nav__right-arrow-black'></i></a></div>
+            </div>
+            <div class='m-navigation-item__container'>
+                <div class='m-navigation-text__container'><span class='m-main-nav'>Compete</span><i class='i-navigation-dropdown i-main-nav__dropdown-down'></i></div>
+                <div class='m-navigation-dropdown__container is-nav-dropdown-closed'><span class='m-navigation-item__heading'><i class='i-main-nav__section-heading'></i>UPCOMING CHALLENGES</span><a href='/START20?itm_campaign=navmenu' class='m-navigation-dropdown__item'><span class=''>CodeChef Starters 20 (Rated for Div 3)</span><i class='i-main-nav__right-arrow-black'></i></a>
+                    <a
+                        href='/COOK136?itm_medium=navmenu&itm_campaign=COOK136' class='m-navigation-dropdown__item'><span class=''>December Cook-Off 2021</span><i class='i-main-nav__right-arrow-black'></i></a>
+                        <hr class='l-navigation-divider'><span class='m-navigation-item__heading'><i class='i-main-nav__section-heading'></i>CONTESTS ON CODECHEF</span><a href='/contests?itm_medium=navmenu&itm_campaign=allcontests' class='m-navigation-dropdown__item'><span class=''>All Contests</span><i class='i-main-nav__right-arrow-black'></i></a>
+                        <hr
+                            class='l-navigation-divider'><span class='m-navigation-item__heading'><i class='i-main-nav__section-heading'></i>CONTEST RELATED</span><a href='/event-calendar?itm_medium=navmenu&itm_campaign=calendar' class='m-navigation-dropdown__item'><span class=''>Contest Calendar</span><i class='i-main-nav__right-arrow-black'></i></a></div>
+            </div>
+            <div class='m-navigation-item__container'>
+                <div class='m-navigation-text__container'><span class='m-main-nav'>Discuss</span><i class='i-navigation-dropdown i-main-nav__dropdown-down'></i></div>
+                <div class='m-navigation-dropdown__container is-nav-dropdown-closed'><a href='https://discuss.codechef.com?itm_medium=navmenu&itm_campaign=discuss' target='_blank' class='m-navigation-dropdown__item'><span class=''>Discussion Forum</span><i class='i-main-nav__right-arrow-black'></i></a><a href='https://blog.codechef.com?itm_medium=navmenu&itm_campaign=blog'
+                        target='_blank' class='m-navigation-dropdown__item'><span class=''>Blog</span><i class='i-main-nav__right-arrow-black'></i></a></div>
+            </div>
+            <div class='m-navigation-item__container'>
+                <div class='m-navigation-text__container'><span class='m-main-nav'>More</span><i class='i-navigation-dropdown i-main-nav__dropdown-down'></i></div>
+                <div class='m-navigation-dropdown__container is-nav-dropdown-closed'>
+                    <div class='m-navigation-item__container--internal'>
+                        <div class='m-navigation-text__container--internal'><span class='m-navigation-text--internal'>Our Initiatives</span><i class='i-navigation-dropdown-internal i-main-nav__dropdown-internal-down'></i></div>
+                        <hr class='l-navigation-divider--internal'>
+                        <div class='m-navigation-dropdown__container--internal is-nav-dropdown-closed'><a href='/monthly-programming-contests?itm_medium=navmenu&itm_campaign=monthlycontests' class='m-navigation-dropdown__item--internal'><span class=''>Monthly Contests</span><i class='i-main-nav__right-arrow-black'></i></a><a href='/hostyourcontest?itm_medium=navmenu&itm_campaign=hyc'
+                                class='m-navigation-dropdown__item--internal'><span class=''>Host your Contest</span><i class='i-main-nav__right-arrow-black'></i></a>
+                            <a href='/snackdown?itm_medium=navmenu&itm_campaign=snackdown' class='m-navigation-dropdown__item--internal'><span class=''>SnackDown</span><i class='i-main-nav__right-arrow-black'></i></a><a href='/goforgold?itm_medium=navmenu&itm_campaign=goforgold' class='m-navigation-dropdown__item--internal'><span class=''>Go for Gold</span><i class='i-main-nav__right-arrow-black'></i></a></div>
+                    </div>
+                    <div class='m-navigation-item__container--internal'>
+                        <div class='m-navigation-text__container--internal'><span class='m-navigation-text--internal'>Associate with Us</span><i class='i-navigation-dropdown-internal i-main-nav__dropdown-internal-down'></i></div>
+                        <hr class='l-navigation-divider--internal'>
+                        <div class='m-navigation-dropdown__container--internal is-nav-dropdown-closed'><a href='https://business.codechef.com?itm_medium=navmenu&itm_campaign=business' class='m-navigation-dropdown__item--internal'><span class=''>Business Partnerships</span><i class='i-main-nav__right-arrow-black'></i></a><a href='/problemsetting?itm_medium=navmenu&itm_campaign=problemsetting'
+                                class='m-navigation-dropdown__item--internal'><span class=''>Become a Problem Setter</span><i class='i-main-nav__right-arrow-black'></i></a>
+                            <a href='/contactus?itm_medium=navmenu&itm_campaign=contactus' class='m-navigation-dropdown__item--internal'><span class=''>Contact Us</span><i class='i-main-nav__right-arrow-black'></i></a>
+                        </div>
+                    </div>
+                    <div class='m-navigation-item__container--internal'>
+                        <div class='m-navigation-text__container--internal'><span class='m-navigation-text--internal'>More from CodeChef</span><i class='i-navigation-dropdown-internal i-main-nav__dropdown-internal-down'></i></div>
+                        <div class='m-navigation-dropdown__container--internal is-nav-dropdown-closed'><a href='/getting-started?itm_medium=navmenu&itm_campaign=getstarted' class='m-navigation-dropdown__item--internal'><span class=''>Get Started at CodeChef</span><i class='i-main-nav__right-arrow-black'></i></a><a href='/ratings/all?itm_medium=navmenu&itm_campaign=ratings'
+                                class='m-navigation-dropdown__item--internal'><span class=''>CodeChef Ratings</span><i class='i-main-nav__right-arrow-black'></i></a><a href='https://goodies.codechef.com?itm_medium=navmenu&itm_campaign=goodies' target='_blank'
+                                class='m-navigation-dropdown__item--internal'><span class=''>CodeChef Goodies</span><i class='i-main-nav__right-arrow-black'></i></a>
+                            <a href='/icpc?itm_medium=navmenu&itm_campaign=icpc' class='m-navigation-dropdown__item--internal'><span class=''>ICPC</span><i class='i-main-nav__right-arrow-black'></i></a><a href='/ioi?itm_medium=navmenu&itm_campaign=ioi' class='m-navigation-dropdown__item--internal'><span class=''>IOI</span><i class='i-main-nav__right-arrow-black'></i></a>
+                            <a
+                                href='/wiki/faq?itm_medium=navmenu&itm_campaign=faq' class='m-navigation-dropdown__item--internal'><span class=''>Frequently Asked Questions</span><i class='i-main-nav__right-arrow-black'></i></a><a href='/wiki?itm_medium=navmenu&itm_campaign=wiki' class='m-navigation-dropdown__item--internal'><span class=''>CodeChef Wiki</span><i class='i-main-nav__right-arrow-black'></i></a>
+                                <a
+                                    href='/ratings/divisions?itm_medium=navmenu&itm_campaign=divisions' class='m-navigation-dropdown__item--internal'><span class=''>Contest Divisions</span><i class='i-main-nav__right-arrow-black'></i></a><a href='/aboutus?itm_medium=navmenu&itm_campaign=aboutus' class='m-navigation-dropdown__item--internal'><span class=''>About Us</span><i class='i-main-nav__right-arrow-black'></i></a></div>
+                    </div>
+                </div>
+            </div>
+    </nav>
+    <nav class='l-navigation is-mobile-navigation'>
+        <div class='m-navigation'>
+            <div class='m-navigation-text__container'><a class='m-main-nav' href='/'><span class='m-navigation-text--desktop'>Home</span><span class='m-navigation-text--mobile'><i class='i-main-nav__home-icon'></i></span></a></div>
+            <div class='m-navigation-item__container'>
+                <div class='m-navigation-text__container'><span class='m-main-nav'>Practice & Learn</span><i class='i-navigation-dropdown i-main-nav__dropdown-down'></i></div>
+                <div class='m-navigation-dropdown__container is-nav-dropdown-closed'><span class='m-navigation-item__heading'><i class='i-main-nav__section-heading'></i>IDE</span><a href='/ide?itm_medium=navmenu&itm_campaign=ide' class='m-navigation-dropdown__item'><span class=''>Code, Compile and Learn</span><i class='i-main-nav__right-arrow-black'></i></a>
+                    <hr
+                        class='l-navigation-divider'><span class='m-navigation-item__heading'><i class='i-main-nav__section-heading'></i>PRACTICE</span><a href='/problems/school?itm_medium=navmenu&itm_campaign=problems' class='m-navigation-dropdown__item'><span class=''>Problems (by Difficulty Level)</span><i class='i-main-nav__right-arrow-black'></i></a>
+                        <a
+                            href='/tags/problems?itm_medium=navmenu&itm_campaign=tagsproblems' class='m-navigation-dropdown__item'><span class=''>Problems (by Tags)</span><i class='i-main-nav__right-arrow-black'></i></a><a href='/LEARNDSA?itm_medium=navmenu&itm_campaign=learndsa' class='m-navigation-dropdown__item'><span class=''>DSA Learning Series</span><i class='i-main-nav__right-arrow-black'></i></a></div>
+            </div>
+            <div class='m-navigation-item__container'>
+                <div class='m-navigation-text__container'><span class='m-main-nav'>Compete</span><i class='i-navigation-dropdown i-main-nav__dropdown-down'></i></div>
+                <div class='m-navigation-dropdown__container is-nav-dropdown-closed'><span class='m-navigation-item__heading'><i class='i-main-nav__section-heading'></i>UPCOMING CHALLENGES</span><a href='/START20?itm_campaign=navmenu' class='m-navigation-dropdown__item'><span class=''>CodeChef Starters 20 (Rated for Div 3)</span><i class='i-main-nav__right-arrow-black'></i></a>
+                    <a
+                        href='/COOK136?itm_medium=navmenu&itm_campaign=COOK136' class='m-navigation-dropdown__item'><span class=''>December Cook-Off 2021</span><i class='i-main-nav__right-arrow-black'></i></a>
+                        <hr class='l-navigation-divider'><span class='m-navigation-item__heading'><i class='i-main-nav__section-heading'></i>CONTESTS ON CODECHEF</span><a href='/contests?itm_medium=navmenu&itm_campaign=allcontests' class='m-navigation-dropdown__item'><span class=''>All Contests</span><i class='i-main-nav__right-arrow-black'></i></a>
+                        <hr
+                            class='l-navigation-divider'><span class='m-navigation-item__heading'><i class='i-main-nav__section-heading'></i>CONTEST RELATED</span><a href='/event-calendar?itm_medium=navmenu&itm_campaign=calendar' class='m-navigation-dropdown__item'><span class=''>Contest Calendar</span><i class='i-main-nav__right-arrow-black'></i></a></div>
+            </div>
+            <div class='m-navigation-item__container'>
+                <div class='m-navigation-text__container'><span class='m-main-nav'>More</span><i class='i-navigation-dropdown i-main-nav__dropdown-down'></i></div>
+                <div class='m-navigation-dropdown__container is-nav-dropdown-closed'>
+                    <div class='m-navigation-item__container--internal'>
+                        <div class='m-navigation-text__container--internal'><span class='m-navigation-text--internal'>Discuss</span><i class='i-navigation-dropdown-internal i-main-nav__dropdown-internal-down'></i></div>
+                        <hr class='l-navigation-divider--internal'>
+                        <div class='m-navigation-dropdown__container--internal is-nav-dropdown-closed'><a href='https://discuss.codechef.com?itm_medium=navmenu&itm_campaign=discuss' target='_blank' class='m-navigation-dropdown__item--internal'><span class=''>Discussion Forum</span><i class='i-main-nav__right-arrow-black'></i></a>
+                            <a
+                                href='https://blog.codechef.com?itm_medium=navmenu&itm_campaign=blog' target='_blank' class='m-navigation-dropdown__item--internal'><span class=''>Blog</span><i class='i-main-nav__right-arrow-black'></i></a>
+                        </div>
+                    </div>
+                    <div class='m-navigation-item__container--internal'>
+                        <div class='m-navigation-text__container--internal'><span class='m-navigation-text--internal'>Our Initiatives</span><i class='i-navigation-dropdown-internal i-main-nav__dropdown-internal-down'></i></div>
+                        <hr class='l-navigation-divider--internal'>
+                        <div class='m-navigation-dropdown__container--internal is-nav-dropdown-closed'><a href='/monthly-programming-contests?itm_medium=navmenu&itm_campaign=monthlycontests' class='m-navigation-dropdown__item--internal'><span class=''>Monthly Contests</span><i class='i-main-nav__right-arrow-black'></i></a><a href='/hostyourcontest?itm_medium=navmenu&itm_campaign=hyc'
+                                class='m-navigation-dropdown__item--internal'><span class=''>Host your Contest</span><i class='i-main-nav__right-arrow-black'></i></a>
+                            <a href='/snackdown?itm_medium=navmenu&itm_campaign=snackdown' class='m-navigation-dropdown__item--internal'><span class=''>SnackDown</span><i class='i-main-nav__right-arrow-black'></i></a><a href='/goforgold?itm_medium=navmenu&itm_campaign=goforgold' class='m-navigation-dropdown__item--internal'><span class=''>Go for Gold</span><i class='i-main-nav__right-arrow-black'></i></a></div>
+                    </div>
+                    <div class='m-navigation-item__container--internal'>
+                        <div class='m-navigation-text__container--internal'><span class='m-navigation-text--internal'>Associate with Us</span><i class='i-navigation-dropdown-internal i-main-nav__dropdown-internal-down'></i></div>
+                        <hr class='l-navigation-divider--internal'>
+                        <div class='m-navigation-dropdown__container--internal is-nav-dropdown-closed'><a href='https://business.codechef.com?itm_medium=navmenu&itm_campaign=business' class='m-navigation-dropdown__item--internal'><span class=''>Business Partnerships</span><i class='i-main-nav__right-arrow-black'></i></a><a href='/problemsetting?itm_medium=navmenu&itm_campaign=problemsetting'
+                                class='m-navigation-dropdown__item--internal'><span class=''>Become a Problem Setter</span><i class='i-main-nav__right-arrow-black'></i></a>
+                            <a href='/contactus?itm_medium=navmenu&itm_campaign=contactus' class='m-navigation-dropdown__item--internal'><span class=''>Contact Us</span><i class='i-main-nav__right-arrow-black'></i></a>
+                        </div>
+                    </div>
+                    <div class='m-navigation-item__container--internal'>
+                        <div class='m-navigation-text__container--internal'><span class='m-navigation-text--internal'>More from CodeChef</span><i class='i-navigation-dropdown-internal i-main-nav__dropdown-internal-down'></i></div>
+                        <div class='m-navigation-dropdown__container--internal is-nav-dropdown-closed'><a href='/getting-started?itm_medium=navmenu&itm_campaign=getstarted' class='m-navigation-dropdown__item--internal'><span class=''>Get Started at CodeChef</span><i class='i-main-nav__right-arrow-black'></i></a><a href='/ratings/all?itm_medium=navmenu&itm_campaign=ratings'
+                                class='m-navigation-dropdown__item--internal'><span class=''>CodeChef Ratings</span><i class='i-main-nav__right-arrow-black'></i></a><a href='https://goodies.codechef.com?itm_medium=navmenu&itm_campaign=goodies' target='_blank'
+                                class='m-navigation-dropdown__item--internal'><span class=''>CodeChef Goodies</span><i class='i-main-nav__right-arrow-black'></i></a>
+                            <a href='/icpc?itm_medium=navmenu&itm_campaign=icpc' class='m-navigation-dropdown__item--internal'><span class=''>ICPC</span><i class='i-main-nav__right-arrow-black'></i></a><a href='/ioi?itm_medium=navmenu&itm_campaign=ioi' class='m-navigation-dropdown__item--internal'><span class=''>IOI</span><i class='i-main-nav__right-arrow-black'></i></a>
+                            <a
+                                href='/wiki/faq?itm_medium=navmenu&itm_campaign=faq' class='m-navigation-dropdown__item--internal'><span class=''>Frequently Asked Questions</span><i class='i-main-nav__right-arrow-black'></i></a><a href='/wiki?itm_medium=navmenu&itm_campaign=wiki' class='m-navigation-dropdown__item--internal'><span class=''>CodeChef Wiki</span><i class='i-main-nav__right-arrow-black'></i></a>
+                                <a
+                                    href='/ratings/divisions?itm_medium=navmenu&itm_campaign=divisions' class='m-navigation-dropdown__item--internal'><span class=''>Contest Divisions</span><i class='i-main-nav__right-arrow-black'></i></a><a href='/aboutus?itm_medium=navmenu&itm_campaign=aboutus' class='m-navigation-dropdown__item--internal'><span class=''>About Us</span><i class='i-main-nav__right-arrow-black'></i></a></div>
+                    </div>
+                </div>
+            </div>
+    </nav>
+    <section class="l-slider-section l-position-relative m-main-slider">
+        <div class="l-row l-row--1328">
+            <div class="m-slider">
+                <div class="m-slider__slide">
+                    <div class="l-image-with-text">
+                        <div class="m-image-with-text__image-1">
+                            <a href="https://www.codechef.com/START20?itm_medium=hpbanner_1&itm_campaign=Start20">
+                                <img src="https://cdn.codechef.com/download/banner/1639389218.png" class="m-slider__desktop-image">
+                                <img src="https://cdn.codechef.com/download/banner/mobile-1639389218.png" class="m-slider__mobile-image">
+                            </a>
+                        </div>
+                        <div class="l-image-with-text__text-1">
+                            <div class="l-image-with-text__text-top">
+                                <p class="m-image-with-text__head">
+                                    Starters 20 </p>
+                                <p class="m-image-with-text__desc">
+                                    A beginner-level coding contest, Rated exclusively for Div 3 coders is on Dec 15th, 8 PM to 11 PM (IST). </p>
+                            </div>
+                            <div class="l-image-with-text__text-bottom">
+                                <hr class="m-image-with-text__divider">
+                                <a class="m-image-with-text__link-1" href="https://www.codechef.com/START20?itm_medium=hpbanner_1&itm_campaign=Start20">Set Reminder<span
+                                                class="i-right-arrow-black--container"><i
+                                                    class="i-right-arrow-blue"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="m-slider__slide">
+                    <div class="l-image-with-text">
+                        <div class="m-image-with-text__image-1">
+                            <a href="https://www.codechef.com/COOK136?itm_medium=hpbanner_2&itm_campaign=DecCook">
+                                <img src="https://cdn.codechef.com/download/banner/1639389409.png" class="m-slider__desktop-image">
+                                <img src="https://cdn.codechef.com/download/banner/mobile-1639389409.png" class="m-slider__mobile-image">
+                            </a>
+                        </div>
+                        <div class="l-image-with-text__text-1">
+                            <div class="l-image-with-text__text-top">
+                                <p class="m-image-with-text__head">
+                                    December Cook-Off </p>
+                                <p class="m-image-with-text__desc">
+                                    Show off your coding skills in a 2.5-hour coding contest on 19th December at 8:00 PM (IST). The challenge is open and ra... </p>
+                            </div>
+                            <div class="l-image-with-text__text-bottom">
+                                <hr class="m-image-with-text__divider">
+                                <a class="m-image-with-text__link-1" href="https://www.codechef.com/COOK136?itm_medium=hpbanner_2&itm_campaign=DecCook">Set Reminder<span
+                                                class="i-right-arrow-black--container"><i
+                                                    class="i-right-arrow-blue"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="m-slider__slide">
+                    <div class="l-image-with-text">
+                        <div class="m-image-with-text__image-1">
+                            <a href="https://bit.ly/3yjqZMK">
+                                <img src="https://cdn.codechef.com/download/banner/1639393669.png" class="m-slider__desktop-image">
+                                <img src="https://cdn.codechef.com/download/banner/mobile-1639393669.png" class="m-slider__mobile-image">
+                            </a>
+                        </div>
+                        <div class="l-image-with-text__text-1">
+                            <div class="l-image-with-text__text-top">
+                                <p class="m-image-with-text__head">
+                                    December Long Challenge Editorials </p>
+                                <p class="m-image-with-text__desc">
+                                    Video editorials of the December Long Challenge are out now! </p>
+                            </div>
+                            <div class="l-image-with-text__text-bottom">
+                                <hr class="m-image-with-text__divider">
+                                <a class="m-image-with-text__link-1" href="https://bit.ly/3yjqZMK">Watch Here<span
+                                                class="i-right-arrow-black--container"><i
+                                                    class="i-right-arrow-blue"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="m-slider__slide">
+                    <div class="l-image-with-text">
+                        <div class="m-image-with-text__image-1">
+                            <a href="https://bit.ly/31TYskE">
+                                <img src="https://cdn.codechef.com/download/banner/1639286112.png" class="m-slider__desktop-image">
+                                <img src="https://cdn.codechef.com/download/banner/mobile-1639286112.png" class="m-slider__mobile-image">
+                            </a>
+                        </div>
+                        <div class="l-image-with-text__text-1">
+                            <div class="l-image-with-text__text-top">
+                                <p class="m-image-with-text__head">
+                                    Time for Change </p>
+                                <p class="m-image-with-text__desc">
+                                    Attention all! All short-rated contest timings are going to change, and it's easier for you to remember now. </p>
+                            </div>
+                            <div class="l-image-with-text__text-bottom">
+                                <hr class="m-image-with-text__divider">
+                                <a class="m-image-with-text__link-1" href="https://bit.ly/31TYskE">Know More<span
+                                                class="i-right-arrow-black--container"><i
+                                                    class="i-right-arrow-blue"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="m-slider__slide">
+                    <div class="l-image-with-text">
+                        <div class="m-image-with-text__image-1">
+                            <a href="https://www.codechef.com/jobs?itm_medium=hpbanner_5&itm_campaign=CC_Jobs">
+                                <img src="https://cdn.codechef.com/download/banner/1639134231.png" class="m-slider__desktop-image">
+                                <img src="https://cdn.codechef.com/download/banner/mobile-1639134231.png" class="m-slider__mobile-image">
+                            </a>
+                        </div>
+                        <div class="l-image-with-text__text-1">
+                            <div class="l-image-with-text__text-top">
+                                <p class="m-image-with-text__head">
+                                    Opportunities Across Companies </p>
+                                <p class="m-image-with-text__desc">
+                                    We have new career opportunities for you! Refer to the CodeChef Jobs page for current openings across various companies. </p>
+                            </div>
+                            <div class="l-image-with-text__text-bottom">
+                                <hr class="m-image-with-text__divider">
+                                <a class="m-image-with-text__link-1" href="https://www.codechef.com/jobs?itm_medium=hpbanner_5&itm_campaign=CC_Jobs">Check Now<span
+                                                class="i-right-arrow-black--container"><i
+                                                    class="i-right-arrow-blue"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="m-slider__slide">
+                    <div class="l-image-with-text">
+                        <div class="m-image-with-text__image-1">
+                            <a href="https://bit.ly/3pVZu8p">
+                                <img src="https://cdn.codechef.com/download/banner/1639398910.png" class="m-slider__desktop-image">
+                                <img src="https://cdn.codechef.com/download/banner/mobile-1639398910.png" class="m-slider__mobile-image">
+                            </a>
+                        </div>
+                        <div class="l-image-with-text__text-1">
+                            <div class="l-image-with-text__text-top">
+                                <p class="m-image-with-text__head">
+                                    SnackDown 2021 Finalists </p>
+                                <p class="m-image-with-text__desc">
+                                    We are inching closer to SnackDown Grand Finale, and we've got a blog series all ready for you to know about the finalis... </p>
+                            </div>
+                            <div class="l-image-with-text__text-bottom">
+                                <hr class="m-image-with-text__divider">
+                                <a class="m-image-with-text__link-1" href="https://bit.ly/3pVZu8p">Know More<span
+                                                class="i-right-arrow-black--container"><i
+                                                    class="i-right-arrow-blue"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="m-slider-controls">
+                <div class="m-slider-controls__container">
+                    <i class="i-slider-previous"></i>
+                </div>
+                <div class="m-slider-controls__container">
+                    <i class="i-slider-next"></i>
+                </div>
+            </div>
+            <p class="m-slider-count"></p>
+        </div>
+    </section>
+    <hr class="l-section-divider-1">
+    <section class="l-section-1" id="upcoming-events">
+        <div class="l-row l-row--1024">
+            <div class="l-row--800 l-margin-bottom-64">
+                <div class="l-row--680">
+                    <h2 class="m-head__2">Events and Contests</h2>
+                </div>
+                <div class="l-card-3 l-margin-bottom-0 m-next-event-card" onClick=window.open( 'https://www.codechef.com/START20?itm_medium=hpevents&itm_campaign=Start20', '_blank')>
+                    <div class="l-card-3__col-1">
+                        <div class="l-card-3__date-1">
+                            <p class="m-card-3__date-1-desc">Starts On</p>
+                            <div class="l-card-3__date-1-text">
+                                <p class="m-card-3__day">15</p>
+                                <p class="m-card-3__month">Dec</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="l-card-3__col-2">
+                        <div class="l-card-3__info">
+                            <h3 class="m-card-3__head">Starters 20</h3>
+                            <p class="m-card-3__desc">
+                                <span class="m-card-3__desc-type">Contest</span>|<span class="m-card-3__time-clock">
+                            <i class="i-clock-grey l-margin-right-8"></i>08:00 PM&nbsp;IST</p></span>
+                        </div>
+                    </div>
+                    <div class="l-card-3__col-3">
+                        <div class="l-card-3__dtl-btn">
+                            <a href="https://www.codechef.com/START20?itm_medium=hpevents&itm_campaign=Start20" class="m-card-3__dtl-btn" target="_blank"> Set Reminder<i 
+                               class="i-arrow-no-tail-blue"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="m-head__11 l-margin-bottom-16">More Events</h3>
+                <hr class="l-card-divider l-margin-top-0">
+                <div class="l-card-3 l-margin-bottom-0 m-other-event-card" onClick=window.open( 'https://www.codechef.com/COOK136?itm_medium=hpevents&itm_campaign=DecCook', '_blank')>
+                    <div class="l-card-3__col-1">
+                        <div class="l-card-3__date-1">
+                            <p class="m-card-3__date-1-desc">Starts On</p>
+                            <div class="l-card-3__date-1-text">
+                                <p class="m-card-3__day">19</p>
+                                <p class="m-card-3__month">Dec</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="l-card-3__col-2">
+                        <div class="l-card-3__info">
+                            <h3 class="m-card-3__head">December Cook-Off</h3>
+                            <p class="m-card-3__desc">
+                                <span class="m-card-3__desc-type">Contest</span>|<span class="m-card-3__time-clock">
+                            <i class="i-clock-grey l-margin-right-8"></i>08:00 PM&nbsp;IST</p></span>
+                        </div>
+                    </div>
+                    <div class="l-card-3__col-3">
+                        <div class="l-card-3__dtl-btn">
+                            <a href="https://www.codechef.com/COOK136?itm_medium=hpevents&itm_campaign=DecCook" class="m-card-3__dtl-btn" target="_blank"> Set Reminder<i 
+                               class="i-arrow-no-tail-blue"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="l-row--800">
+                <div class="m-note-card">
+                    <div class="l-card-7__content">
+                        <h3 class="m-list-head l-margin-bottom-0">New to Programming?</h3>
+
+                        <p class="m-para l-row--680">From your first baby steps to becoming a pro in the world of competitive programming - your journey begins here.</p>
+                        <div class="l-button-1">
+                            <a target="_blank" href="/getting-started" class="m-button-1">
+                                Start Here<i class="i-arrow-no-tail-blue"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="l-section l-section--yellow-6" id="announcements">
+        <div class="l-row l-row--1024">
+            <div class="l-row--800">
+                <div class="l-row--680">
+                    <h2 class="m-head__2">Announcements</h2>
+                </div>
+                <div class="l-announcement">
+                    <div class="l-announcement__icon">
+                        <i class="i-announcement"></i>
+                    </div>
+                    <div class="l-announcement__container">
+                        <div class="l-announcement__content">
+                            <div class="l-announcement__text">
+                                <p class="m-announcement__head">
+                                    Starters 19 video editorials are out! </p>
+                                <p class="m-announcement__desc">
+                                    Video editorials of Starters 19 are out now. </p>
+                            </div>
+                            <div class="l-announcement__link">
+                                <a class="m-announcement__link" target="_blank" href="https://www.youtube.com/playlist?list=PLQXZIFwMtjoyuXbO9CNnIAE6h1q-zc7Ae">Watch Here<span
+                                                    class=" m-announcement__link--icon i-right-arrow-black--container">
+                                                <i class="i-right-arrow-blue"></i>
+                                            </span>
+                                        </a>
+                            </div>
+                        </div>
+                        <p class="m-announcement__time">
+                            19:31:01 IST, 12TH DEC 2021&nbsp;IST
+                        </p>
+                    </div>
+                </div>
+                <hr class="l-announcement__divider">
+                <div class="l-announcement">
+                    <div class="l-announcement__icon">
+                        <i class="i-announcement"></i>
+                    </div>
+                    <div class="l-announcement__container">
+                        <div class="l-announcement__content">
+                            <div class="l-announcement__text">
+                                <p class="m-announcement__head">
+                                    Opportunities across Companies </p>
+                                <p class="m-announcement__desc">
+                                    We have new career opportunities for you! From an experienced Technical Analyst role in Ribbon Communications to an internship opportunity at Zaamo's, we have got you covered. </p>
+                            </div>
+                            <div class="l-announcement__link">
+                                <a class="m-announcement__link" target="_blank" href="https://www.codechef.com/jobs?itm_medium=hpannouncement&itm_campaign=CC_Jobs">Check Now<span
+                                                    class=" m-announcement__link--icon i-right-arrow-black--container">
+                                                <i class="i-right-arrow-blue"></i>
+                                            </span>
+                                        </a>
+                            </div>
+                        </div>
+                        <p class="m-announcement__time">
+                            11:41:09 IST, 12TH NOV 2021&nbsp;IST
+                        </p>
+                    </div>
+                </div>
+                <hr class="l-announcement__divider">
+                <div class="l-announcement">
+                    <div class="l-announcement__icon">
+                        <i class="i-announcement"></i>
+                    </div>
+                    <div class="l-announcement__container">
+                        <div class="l-announcement__content">
+                            <div class="l-announcement__text">
+                                <p class="m-announcement__head">
+                                    CodeChef | YouTube </p>
+                                <p class="m-announcement__desc">
+                                    This week on YouTube, we have Mathematics for CP, Tricks to Avoid TLE, DSA Problem Solving Series, and much more. </p>
+                            </div>
+                            <div class="l-announcement__link">
+                                <a class="m-announcement__link" target="_blank" href="https://bit.ly/3sJK3RD">Watch Here<span
+                                                    class=" m-announcement__link--icon i-right-arrow-black--container">
+                                                <i class="i-right-arrow-blue"></i>
+                                            </span>
+                                        </a>
+                            </div>
+                        </div>
+                        <p class="m-announcement__time">
+                            14:24:13 IST, 22ND NOV 2021&nbsp;IST
+                        </p>
+                    </div>
+                </div>
+                <div class="l-margin-bottom-0"> </div>
+            </div>
+    </section>
+    <section class='l-section-1'>
+        <div class='l-row l-row--1024'>
+            <div class='l-row--800'>
+                <div class='l-row--680'>
+                    <h2 class='m-head__2'>Practice Problems</h2>
+                </div>
+
+                <div class='l-card-11'>
+                    <div class='l-card__11--highlight l-margin-bottom-4'>
+                        <h3 class='m-card-11__head'>Problem of the Day</h3>
+                        <span class='m-card__11--highlight'>New</span>
+                    </div>
+                    <p class='m-card-11_desc l-margin-bottom-24'>Solve a New Problem Everyday & enhance your problem solving skills.
+                    </p>
+                    <p class='m-card-11_head-2 l-margin-bottom-24'>Today’s Problem: Sed Max</p>
+                    <div class='l-button-1'>
+                        <a href='/problems/SEDMAX' class='m-button-1'>
+            Solve the Problem<i class='i-arrow-no-tail-blue'></i></a>
+                    </div>
+                </div>
+                <p class='m-head__11 l-margin-bottom-16'>Solve / Practice problems as per your convenience</p>
+                <hr class='l-card-divider l-margin-top-0'>
+                <div class='l-practice'>
+                    <div class='l-practice__icon'>
+                        <i class='i-practice'></i>
+                    </div>
+                    <div class='l-practice__content'>
+                        <p class='m-practice__head'>CodeChef has a huge problem library with a wide variety of problems.</p>
+                        <div class='l-card-link-1 l-margin-bottom-0'>
+                            <a class='m-card-link-1 l-margin-bottom-0' href='/problems/school'>Difficulty Level
+                                    <span class='i-right-arrow-black--container'>
+                                    <i class='i-right-arrow-blue'></i>
+                                    </span>
+                                    </a>
+                        </div>
+                    </div>
+                </div>
+                <div class='l-practice l-margin-bottom-0'>
+                    <div class='l-practice__icon'>
+                        <i class='i-practice'></i>
+                    </div>
+                    <div class='l-practice__content'>
+                        <p class='m-practice__head'>Practice Problem using our Tag Search</p>
+                        <div class='l-card-link-1 l-margin-bottom-0'>
+                            <a class='m-card-link-1 l-margin-bottom-0' href='/tags/problems'>Tags
+                                    <span class='i-right-arrow-black--container'>
+                                    <i class='i-right-arrow-blue'></i>
+                                    </span>
+                                    </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="l-section-1 l-section--grey-15">
+        <div class="l-row l-row--1024">
+            <div class="l-row--800">
+                <div class="l-row--680">
+                    <h2 class="m-head__2">Read Recent Blogs</h2>
+                </div>
+                <div class="l-blog-posts">
+                    <div class="l-list-head l-margin-bottom-24">
+                        <div class="l-head__bullet">
+                            <i class="i-blog-bullet"></i>
+                        </div>
+                        <div class="l-post__content">
+                            <div class="m-post__title">
+                                <p class="m-list-head l-margin-bottom-8">
+                                    The SnackDown Grand Finale! | Part 3! </p>
+                                <div class="m-post__meta">
+                                    <a href='/users/riddhi_225' class='m-post__username'>riddhi_225</a>
+                                    <hr class="m-post__divider">
+                                    <div class="l-display-flex--align-center l-post__time">
+                                        <i class="i-clock-grey l-margin-right-12"></i>
+                                        <span class="m-post__time">20:00:30 IST, 13th Dec 2021</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="l-card-link-1">
+                                <a class="m-card-link-1 l-margin-bottom-8" href="https://blog.codechef.com/2021/12/13/the-snackdown-grand-finale-part-3/">
+                                        Read Blog<span class="i-right-arrow-black--container"><i
+                                                    class="i-right-arrow-blue">
+                                        </i></span>
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="l-list__divider--lighter l-margin-top-0">
+                    <div class="l-list-head l-margin-bottom-24">
+                        <div class="l-head__bullet">
+                            <i class="i-blog-bullet"></i>
+                        </div>
+                        <div class="l-post__content">
+                            <div class="m-post__title">
+                                <p class="m-list-head l-margin-bottom-8">
+                                    The SnackDown Grand Finale! | Part 2! </p>
+                                <div class="m-post__meta">
+                                    <a href='/users/riddhi_225' class='m-post__username'>riddhi_225</a>
+                                    <hr class="m-post__divider">
+                                    <div class="l-display-flex--align-center l-post__time">
+                                        <i class="i-clock-grey l-margin-right-12"></i>
+                                        <span class="m-post__time">16:17:41 IST, 13th Dec 2021</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="l-card-link-1">
+                                <a class="m-card-link-1 l-margin-bottom-8" href="https://blog.codechef.com/2021/12/13/the-snackdown-grand-finale-part-2/">
+                                        Read Blog<span class="i-right-arrow-black--container"><i
+                                                    class="i-right-arrow-blue">
+                                        </i></span>
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="l-list__divider--lighter l-margin-top-0">
+                    <div class="l-list-head l-margin-bottom-24">
+                        <div class="l-head__bullet">
+                            <i class="i-blog-bullet"></i>
+                        </div>
+                        <div class="l-post__content">
+                            <div class="m-post__title">
+                                <p class="m-list-head l-margin-bottom-8">
+                                    Attention, Attention! Change In Short Contest Timi... </p>
+                                <div class="m-post__meta">
+                                    <a href='/users/debanjan321' class='m-post__username'>debanjan321</a>
+                                    <hr class="m-post__divider">
+                                    <div class="l-display-flex--align-center l-post__time">
+                                        <i class="i-clock-grey l-margin-right-12"></i>
+                                        <span class="m-post__time">10:23:44 IST, 12th Dec 2021</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="l-card-link-1">
+                                <a class="m-card-link-1 l-margin-bottom-8" href="https://blog.codechef.com/2021/12/12/attention-attention-change-in-short-contest-timings/">
+                                        Read Blog<span class="i-right-arrow-black--container"><i
+                                                    class="i-right-arrow-blue">
+                                        </i></span>
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="l-list__divider--lighter l-margin-top-0">
+                </div>
+                <div class="l-card-link-1 l-margin-bottom-48">
+                    <a class="m-card-link-1" target="_blank" href="https://blog.codechef.com">Go to CodeChef
+                        Blogs<span
+                                class="i-right-arrow-black--container"><i class="i-right-arrow-blue"></i></span>
+                    </a>
+                </div>
+                <div>
+                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" class="m-image-web-1 l-padding-0 m-deferred-image" data-src="https://cdn.codechef.com/images/home/blog-d.png">
+                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" class="m-image-tab l-padding-0 m-deferred-image" data-src="https://cdn.codechef.com/images/home/blog-t.png">
+                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" class="m-image-mobile l-padding-0 m-deferred-image" data-src="https://cdn.codechef.com/images/home/blog-m.png">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="l-section-1">
+        <div class="l-row l-row--1024">
+            <div class="l-row--800">
+                <div class="l-row--680">
+                    <h2 class="m-head__2">Discuss Recent Questions</h2>
+                </div>
+                <div class="l-discuss-posts">
+                    <div class="l-list-head l-margin-bottom-0">
+                        <div class="l-head__bullet">
+                            <i class="i-discuss-bullet"></i>
+                        </div>
+                        <div class="l-post__content">
+                            <div class="m-post__title">
+                                <p class="m-list-head l-margin-bottom-8">
+                                    ROPASCI - Editorial </p>
+                                <div class="m-post__meta">
+                                    <a href='/users/david_s' class='m-post__username'><span 
+            class='rating' 
+            style='display: inline-block; 
+                    font-size: 10px; 
+                    background: #684273;
+                    padding: 0 3px; 
+                    line-height: 1.3; 
+                    color: white;
+                    margin-right: 2px;'>4&#9733;</span><span class='m-username--link'>david_s</span></a>
+                                    <hr class="m-post__divider">
+                                    <div class="l-display-flex--align-center l-post__time">
+                                        <i class="i-clock-grey l-margin-right-12"></i>
+                                        <span class="m-post__time">07:29:15 IST, 14th Dec 2021</span>
+                                    </div>
+                                    <hr class="m-post__divider">
+                                    <div class="l-display-flex--align-center l-post__views">
+                                        <i class="i-views l-margin-right-12"></i>
+                                        <span class="m-post__views">239&nbsp;Views</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="l-card-link-1">
+                                <a class="m-card-link-1" href="https://discuss.codechef.com/t/96966">
+                                        Go to Forum<span class="i-right-arrow-black--container"><i
+                                                    class="i-right-arrow-blue">
+                                        </i></span>
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="l-list__divider--lighter">
+                    <div class="l-list-head l-margin-bottom-0">
+                        <div class="l-head__bullet">
+                            <i class="i-discuss-bullet"></i>
+                        </div>
+                        <div class="l-post__content">
+                            <div class="m-post__title">
+                                <p class="m-list-head l-margin-bottom-8">
+                                    ZCO-2019 UPDOWN </p>
+                                <div class="m-post__meta">
+                                    <a href='/users/arnav_mehta' class='m-post__username'><span 
+            class='rating' 
+            style='display: inline-block; 
+                    font-size: 10px; 
+                    background: #1E7D22;
+                    padding: 0 3px; 
+                    line-height: 1.3; 
+                    color: white;
+                    margin-right: 2px;'>2&#9733;</span><span class='m-username--link'>arnav_mehta</span></a>
+                                    <hr class="m-post__divider">
+                                    <div class="l-display-flex--align-center l-post__time">
+                                        <i class="i-clock-grey l-margin-right-12"></i>
+                                        <span class="m-post__time">07:11:57 IST, 14th Dec 2021</span>
+                                    </div>
+                                    <hr class="m-post__divider">
+                                    <div class="l-display-flex--align-center l-post__views">
+                                        <i class="i-views l-margin-right-12"></i>
+                                        <span class="m-post__views">9&nbsp;Views</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="l-card-link-1">
+                                <a class="m-card-link-1" href="https://discuss.codechef.com/t/97009">
+                                        Go to Forum<span class="i-right-arrow-black--container"><i
+                                                    class="i-right-arrow-blue">
+                                        </i></span>
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="l-list__divider--lighter">
+                    <div class="l-list-head l-margin-bottom-0">
+                        <div class="l-head__bullet">
+                            <i class="i-discuss-bullet"></i>
+                        </div>
+                        <div class="l-post__content">
+                            <div class="m-post__title">
+                                <p class="m-list-head l-margin-bottom-8">
+                                    INCREAST - Editorial </p>
+                                <div class="m-post__meta">
+                                    <span class='m-para--16--18'>deleted</span>
+                                    <hr class="m-post__divider">
+                                    <div class="l-display-flex--align-center l-post__time">
+                                        <i class="i-clock-grey l-margin-right-12"></i>
+                                        <span class="m-post__time">03:38:32 IST, 14th Dec 2021</span>
+                                    </div>
+                                    <hr class="m-post__divider">
+                                    <div class="l-display-flex--align-center l-post__views">
+                                        <i class="i-views l-margin-right-12"></i>
+                                        <span class="m-post__views">227&nbsp;Views</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="l-card-link-1">
+                                <a class="m-card-link-1" href="https://discuss.codechef.com/t/96968">
+                                        Go to Forum<span class="i-right-arrow-black--container"><i
+                                                    class="i-right-arrow-blue">
+                                        </i></span>
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="l-list__divider--lighter">
+                    <div class="l-card-link-1 l-margin-bottom-48">
+                        <a class="m-card-link-1" target="_blank" href="https://discuss.codechef.com">Go to Discuss
+                            Forum<span class="i-right-arrow-black--container"><i
+                                        class="i-right-arrow-blue"></i></span>
+                        </a>
+                    </div>
+                    <div>
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" class="m-image-web-1 l-padding-0 m-deferred-image" data-src="https://cdn.codechef.com/images/home/discuss-d.png">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" class="m-image-tab l-padding-0 m-deferred-image" data-src="https://cdn.codechef.com/images/home/discuss-t.png">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" class="m-image-mobile l-padding-0 m-deferred-image" data-src="https://cdn.codechef.com/images/home/discuss-m.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class='l-section-1 l-section--grey-15'>
+        <div class='l-row l-row--1024'>
+            <div class='l-row--800'>
+                <div class='l-row--680'>
+                    <h2 class='m-head__2'>Join our YouTube Channel</h2>
+                    <p class='m-para'>This is a dedicated CodeChef channel where we publish video editorials of all your favourite CodeChef problems along with detailed explanatory videos of different competitive programming concepts. They're fun, interactive, and are
+                        loaded with information - just the way they're supposed to be!</p>
+                    <h3 class='m-head__4--dark l-margin-bottom-16'>Getting Started on CodeChef</h3>
+                </div>
+                <div class='l-iframe l-margin-bottom-20'>
+                    <iframe class='m-video' src='https://www.youtube.com/embed/6PtYdN4VDP0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen='' frameborder='0'></iframe>
+                </div>
+                <div class='l-card-link-1'>
+                    <a class='m-card-link-1' target='_blank' href='//youtube.com/c/codechef1'>Subscribe to Our Channel<span
+                        class='i-right-arrow-black--container'><i class='i-right-arrow-blue'></i></span>
+                     </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="l-section l-section--yellow-5">
+        <div class="l-row l-row--1024">
+            <div class="l-row--800">
+                <div class="l-row--680">
+                    <h2 class="m-head__2">Top Performers & Contributors</h2>
+                    <p class="m-head__6 l-margin-top-0">A. &nbsp;Top Performers</p>
+                </div>
+                <div class="m-note-card l-section--white  l-section-card-padding l-margin-bottom-40">
+                    <div class="l-display-flex l-display-flex--align-space-between">
+                        <p class="m-head__20 l-margin-bottom-16 l-margin-top-0">Users</p>
+                        <p class="m-head__20 l-margin-bottom-16 l-margin-top-0">Ratings</p>
+                    </div>
+                    <div class="l-performers">
+                        <div class='l-performer'>
+                            <div class='l-performer__number'>
+                                <p class='m-performer__number'>1.</p>
+                            </div>
+                            <div class='l-performer__text'>
+                                <p class='l-performer__username'><span class='m-user-star' style='background:#D0011B;'>7&nbsp;&#9733;</span>
+                                    <a class='m-performer__username' target='_blank' href='https://www.codechef.com/users/gennady.korotkevich'>gennady.korotkevich</a>
+                                </p>
+                                <p class='m-performer__rating'>4199</p>
+                            </div>
+                        </div>
+                        <div class='l-performer'>
+                            <div class='l-performer__number'>
+                                <p class='m-performer__number'>2.</p>
+                            </div>
+                            <div class='l-performer__text'>
+                                <p class='l-performer__username'><span class='m-user-star' style='background:#D0011B;'>7&nbsp;&#9733;</span>
+                                    <a class='m-performer__username' target='_blank' href='https://www.codechef.com/users/maroonrk'>maroonrk</a>
+                                </p>
+                                <p class='m-performer__rating'>3331</p>
+                            </div>
+                        </div>
+                        <div class='l-performer'>
+                            <div class='l-performer__number'>
+                                <p class='m-performer__number'>3.</p>
+                            </div>
+                            <div class='l-performer__text'>
+                                <p class='l-performer__username'><span class='m-user-star' style='background:#D0011B;'>7&nbsp;&#9733;</span>
+                                    <a class='m-performer__username' target='_blank' href='https://www.codechef.com/users/ACRush'>ACRush</a>
+                                </p>
+                                <p class='m-performer__rating'>3084</p>
+                            </div>
+                        </div>
+                        <div class='l-performer'>
+                            <div class='l-performer__number'>
+                                <p class='m-performer__number'>4.</p>
+                            </div>
+                            <div class='l-performer__text'>
+                                <p class='l-performer__username'><span class='m-user-star' style='background:#D0011B;'>7&nbsp;&#9733;</span>
+                                    <a class='m-performer__username' target='_blank' href='https://www.codechef.com/users/rns4'>rns4</a>
+                                </p>
+                                <p class='m-performer__rating'>3061</p>
+                            </div>
+                        </div>
+                        <div class='l-performer'>
+                            <div class='l-performer__number'>
+                                <p class='m-performer__number'>5.</p>
+                            </div>
+                            <div class='l-performer__text'>
+                                <p class='l-performer__username'><span class='m-user-star' style='background:#D0011B;'>7&nbsp;&#9733;</span>
+                                    <a class='m-performer__username' target='_blank' href='https://www.codechef.com/users/kutengine'>kutengine</a>
+                                </p>
+                                <p class='m-performer__rating'>3046</p>
+                            </div>
+                        </div>
+                        <hr class="l-card-divider">
+                        <div class="l-card-link-1">
+                            <a class="m-card-link-1" href="/ratings/all">
+                                View All<span class="i-right-arrow-black--container"><i
+                                            class="i-right-arrow-blue"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="l-row--680">
+                    <p class="m-head__6 l-margin-top-0">B. &nbsp;Top Contributors December</p>
+                </div>
+                <div class="m-note-card l-section--white l-section-card-padding">
+                    <div class="l-display-flex l-display-flex--align-space-between">
+                        <p class="m-head__20 l-margin-bottom-16 l-margin-top-0">Users</p>
+                        <p class="m-head__20 l-margin-bottom-16 l-margin-top-0">Contributions</p>
+                    </div>
+                    <div class="l-performers">
+                        <div class='l-performer'>
+                            <div class='l-performer__number'>
+                                <p class='m-performer__number'>1.</p>
+                            </div>
+                            <div class='l-performer__text'>
+                                <p class='l-performer__username'><span class='m-user-star' style='background:#FF7F00;'>6&nbsp;&#9733;</span>
+                                    <a class='m-performer__username' target='_blank' href='https://discuss.codechef.com/u/taran_1407'>taran_1407</a>
+                                </p>
+                                <p class='m-performer__rating'>58</p>
+                            </div>
+                        </div>
+                        <div class='l-performer'>
+                            <div class='l-performer__number'>
+                                <p class='m-performer__number'>2.</p>
+                            </div>
+                            <div class='l-performer__text'>
+                                <p class='l-performer__username'><span class='m-user-star' style='background:#FFBF00;'>5&nbsp;&#9733;</span>
+                                    <a class='m-performer__username' target='_blank' href='https://discuss.codechef.com/u/ssvb'>ssvb</a>
+                                </p>
+                                <p class='m-performer__rating'>42</p>
+                            </div>
+                        </div>
+                        <div class='l-performer'>
+                            <div class='l-performer__number'>
+                                <p class='m-performer__number'>3.</p>
+                            </div>
+                            <div class='l-performer__text'>
+                                <p class='l-performer__username'><span class='m-user-star' style='background:#3366CC;'>3&nbsp;&#9733;</span>
+                                    <a class='m-performer__username' target='_blank' href='https://discuss.codechef.com/u/sriharsha_2000'>sriharsha_2000</a>
+                                </p>
+                                <p class='m-performer__rating'>38</p>
+                            </div>
+                        </div>
+                        <div class='l-performer'>
+                            <div class='l-performer__number'>
+                                <p class='m-performer__number'>4.</p>
+                            </div>
+                            <div class='l-performer__text'>
+                                <p class='l-performer__username'><span class='m-user-star' style='background:#FF7F00;'>6&nbsp;&#9733;</span>
+                                    <a class='m-performer__username' target='_blank' href='https://discuss.codechef.com/u/ssjgz'>ssjgz</a>
+                                </p>
+                                <p class='m-performer__rating'>32</p>
+                            </div>
+                        </div>
+                        <div class='l-performer'>
+                            <div class='l-performer__number'>
+                                <p class='m-performer__number'>5.</p>
+                            </div>
+                            <div class='l-performer__text'>
+                                <p class='l-performer__username'><span class='m-user-star' style='background:#FFBF00;'>5&nbsp;&#9733;</span>
+                                    <a class='m-performer__username' target='_blank' href='https://discuss.codechef.com/u/vishaaaal'>vishaaaal</a>
+                                </p>
+                                <p class='m-performer__rating'>30</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="l-card-divider">
+                    <div class="l-card-link-1">
+                        <a class="m-card-link-1" href="https://discuss.codechef.com/top/users">
+                            View All<span class="i-right-arrow-black--container"><i
+                                        class="i-right-arrow-blue"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class='l-section-1 l-section-banner l-banner-6--gfg m-border-bottom--white40'>
+        <div class='l-row l-row--1024'>
+            <div class='m-banner-6 m-banner-6-modified m-banner-6--reverse'>
+                <div class='l-banner-6__content'>
+                    <h2 class='m-gfg__head'>CodeChef - A Platform for Aspiring Programmers</h2>
+                    <div class='l-stats-list-1 l-margin-bottom-0'>
+                        <div class='m-stats-list l-margin-bottom-8'>
+                            <div class='m-stats-list__icon'>
+                                <i class='i-red-circle'></i>
+                            </div>
+                            <div>
+                                <p class='m-para l-margin-bottom-0'>
+                                    Win cool Goodies, <a class='m-breadcrumb__link' href='https://goodies.codechef.com'>Check
+                                    Here</a>.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='m-stats-list l-margin-bottom-8'>
+                            <div class='m-stats-list__icon'>
+                                <i class='i-red-circle'></i>
+                            </div>
+                            <div>
+                                <p class='m-para l-margin-bottom-0'>
+                                    Dedicated Monthly CodeChef Contests, <a class='m-breadcrumb__link' href='/contests'>Read
+                                    More</a>.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='m-stats-list l-margin-bottom-8'>
+                            <div class='m-stats-list__icon'>
+                                <i class='i-red-circle'></i>
+                            </div>
+                            <div>
+                                <p class='m-para l-margin-bottom-0'>
+                                    Huge library of practice problems from beginners to advanced, <a class='m-breadcrumb__link' href='/practice'>Read More</a>.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='m-stats-list l-margin-bottom-8'>
+                            <div class='m-stats-list__icon'>
+                                <i class='i-red-circle'></i>
+                            </div>
+                            <div>
+                                <p class='m-para l-margin-bottom-0'>
+                                    A discussion forum where you can connect with the community of programmers, <a class='m-breadcrumb__link' href='https://discuss.codechef.com'>Know More</a>.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='m-stats-list l-margin-bottom-8'>
+                            <div class='m-stats-list__icon'>
+                                <i class='i-red-circle'></i>
+                            </div>
+                            <div>
+                                <p class='m-para l-margin-bottom-0'>
+                                    Learn from the Best Educators in India, <a class='m-breadcrumb__link' target='_blank' href='//youtube.com/c/codechef1'>Know More</a>.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='m-stats-list l-margin-bottom-0'>
+                            <div class='m-stats-list__icon'>
+                                <i class='i-red-circle'></i>
+                            </div>
+                            <div>
+                                <p class='m-para l-margin-bottom-0'>
+                                    Host your own Contest, <a class='m-breadcrumb__link' href='/hostyourcontest'>Know
+                                    More</a>.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class='l-banner-6__image'>
+                    <img class='m-gfg__image m-banner-6__image--desktop' src='https://cdn.codechef.com/images/home/about-d.png'>
+                    <img class='m-gfg__image m-banner-6__image--mobile' src='https://cdn.codechef.com/images/home/about-m.png'>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="l-footer">
+        <div class="l-footer__content m-footer__content">
+            <div class="l-footer__text">
+                <span class="m-footer__text">Important Links of our resources & information -</span>
+            </div>
+            <div class="l-footer__links">
+                <div class="l-footer__column ">
+                    <div class="l-footer__head">
+                        <p class="m-footer__head">Programming Tools</p>
+                    </div>
+                    <div class="l-footer__list">
+                        <div class="l-footer__link">
+                            <a href="https://www.codechef.com/ide" class="m-footer__link">Online IDE</a>
+                        </div>
+                        <div class="l-footer__link">
+                            <a href="https://www.codechef.com/contests#future-contests" class="m-footer__link">Upcoming
+                            Coding Contests</a>
+                        </div>
+                        <div class="l-footer__link">
+                            <a href="https://www.codechef.com/ccdsap" class="m-footer__link">CodeChef Certifications</a>
+                        </div>
+                        <div class="l-footer__link">
+                            <a href="https://www.codechef.com/hostyourcontest" class="m-footer__link">Hosting Contests</a>
+                        </div>
+                        <div class="l-footer__link">
+                            <a href="https://www.codechef.com/problemsetting" class="m-footer__link">Problem Setting</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="l-footer__column">
+                    <div class="l-footer__head">
+                        <p class="m-footer__head">Learning Resources</p>
+                    </div>
+                    <div class="l-footer__list">
+                        <div class="l-footer__link">
+                            <a href="https://www.codechef.com/getting-started" class="m-footer__link">Getting Started</a>
+                        </div>
+                        <div class="l-footer__link">
+                            <a href="https://www.codechef.com/problems/school" class="m-footer__link">Practice Problems</a>
+                        </div>
+                        <div class="l-footer__link">
+                            <a href="https://www.codechef.com/certification/data-structures-and-algorithms/prepare" class="m-footer__link">Prepare for DSA Certification</a>
+                        </div>
+                        <div class="l-footer__link">
+                            <a href="https://discuss.codechef.com" class="m-footer__link">CodeChef Discuss</a>
+                        </div>
+                        <div class="l-footer__link">
+                            <a href="https://www.codechef.com/wiki/tutorials" class="m-footer__link">CodeChef Tutorials</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="l-footer__column">
+                    <div class="l-footer__head">
+                        <p class="m-footer__head">Initiatives</p>
+                    </div>
+                    <div class="l-footer__list">
+                        <div class="l-footer__link">
+                            <a href="https://www.codechef.com/goforgold" class="m-footer__link">Go For Gold</a>
+                        </div>
+                        <div class="l-footer__link">
+                            <a href="https://www.codechef.com/school" class="m-footer__link">CodeChef for Schools</a>
+                        </div>
+                        <div class="l-footer__link">
+                            <a href="https://www.codechef.com/campus_chapter" class="m-footer__link">Campus Chapters</a>
+                        </div>
+                        <div class="l-footer__link">
+                            <a href="https://goodies.codechef.com" class="m-footer__link">CodeChef Goodies</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="l-footer__column">
+                    <div class="l-footer__head">
+                        <p class="m-footer__head">More</p>
+                    </div>
+                    <div class="l-footer__list">
+                        <div class="l-footer__link">
+                            <a href="https://business.codechef.com" class="m-footer__link">CodeChef For Business</a>
+                        </div>
+                        <div class="l-footer__link">
+                            <a href="https://www.codechef.com/contactus" class="m-footer__link">Contact Us</a>
+                        </div>
+                        <div class="l-footer__link">
+                            <a href="https://www.codechef.com/codeofconduct" class="m-footer__link">Code Of Conduct</a>
+                        </div>
+                        <div class="l-footer__link">
+                            <a href="https://www.codechef.com/rankings" class="m-footer__link">User Ranklist</a>
+                        </div>
+                        <div class="l-footer__link">
+                            <a href="https://codechef.releases.live" class="m-footer__link">Public Release</a>
+                        </div>
+                        <div class="l-footer__link">
+                            <a href="https://www.codechef.com/privacy-policy" class="m-footer__link">Privacy policy</a>
+                        </div>
+                        <div class="l-footer__link">
+                            <a href="https://www.codechef.com/terms" class="m-footer__link">Terms</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="l-footer__social">
+            <div class="m-footer__social">
+                <div class="l-footer__site">
+                    <a href="https://www.codechef.com" class="m-footer__site is-link-hovered ">www.codechef.com</a>
+                </div>
+                <div class="l-footer__follow-sec">
+                    <div class="l-footer__follow">
+                        <span class="m-footer__follow">Follow Us</span>
+                    </div>
+                    <div class="l-footer__icons">
+                        <a class="m-social i-youtube" href="//youtube.com/c/codechef1">
+                        </a>
+                        <a class="m-social i-telegram" href="//t.me/learncpwithcodechef">
+                        </a>
+                        <a class="m-social i-facebook" href="//facebook.com/CodeChef">
+                        </a>
+                        <a class="m-social i-instagram" href="//instagram.com/codechef">
+                        </a>
+                        <a class="m-social i-twitter" href="//twitter.com/codechef">
+                        </a>
+                        <a class="m-social i-medium" href="//medium.com/codechef-official">
+                        </a>
+                        <a class="m-social i-quora" href="//quora.com/topic/CodeChef">
+                        </a>
+                        <a class="m-social i-linkedin" href="//linkedin.com/company/codechef">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script id="_webengage_script_tag" type="text/javascript">
+        var webengage;
+        ! function(w, e, b, n, g) {
+            function o(e, t) {
+                e[t[t.length - 1]] = function() {
+                    r.__queue.push([t.join("."),
+                        arguments
+                    ])
+                }
+            }
+
+            var i, s, r = w[b],
+                z = " ",
+                l = "init options track screen onReady".split(z),
+                a = "feedback survey notification".split(z),
+                c = "options render clear abort".split(z),
+                p = "Open Close Submit Complete View Click".split(z),
+                u = "identify login logout setAttribute".split(z);
+            if (!r || !r.__v) {
+                for (w[b] = r = {
+                        __queue: [],
+                        __v: "6.0",
+                        user: {}
+                    }, i = 0; i < l.length; i++) o(r, [l[i]]);
+                for (i = 0; i < a.length; i++) {
+                    for (r[a[i]] = {}, s = 0; s < c.length; s++) o(r[a[i]], [a[i], c[s]]);
+                    for (s = 0; s < p.length; s++) o(r[a[i]], [a[i], "on" + p[s]])
+                }
+                for (i = 0; i < u.length; i++) o(r.user, ["user", u[i]]);
+                setTimeout(function() {
+                    var f = e.createElement("script"),
+                        d = e.getElementById("_webengage_script_tag");
+                    f.type = "text/javascript", f.async = !0, f.src = ("https:" == e.location.protocol ? "https://ssl.widgets.webengage.com" : "http://cdn.widgets.webengage.com") + "/js/webengage-min-v-6.0.js", d.parentNode.insertBefore(f, d)
+                })
+            }
+        }(window, document, "webengage");
+        webengage.init("~7168057d");
+    </script>
+    <script type="text/javascript">
+        _linkedin_data_partner_id = "93463";
+    </script>
+    <script type="text/javascript">
+        (function() {
+            var s = document.getElementsByTagName("script")[0];
+            var b = document.createElement("script");
+            b.type = "text/javascript";
+            b.async = true;
+            b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+            s.parentNode.insertBefore(b, s);
+        })();
+    </script>
+    <noscript>
+            <img height="1" width="1" style="display:none;" alt=""
+                src="https://dc.ads.linkedin.com/collect/?pid=93463&fmt=gif" />
+        </noscript>
+    <div id='gdpr-cookie-notif' class='global--announcement' style='display: none;'>
+        <div class='global--announcement__content'>
+            <p>
+                We use cookies to improve your experience and for analytical purposes. Read our <a href='https://www.codechef.com/privacy-policy'>Privacy Policy</a> and <a href='https://www.codechef.com/terms'>Terms</a> to know more. You consent to our
+                cookies if you continue to use our website.
+            </p>
+        </div>
+        <div class='global--announcement__action'>
+            <button id='gdpr-i-love-cookies' class='button grey tiny'>Okay</button>
+        </div>
+    </div>
+</body>
+
+</html>
